@@ -21,7 +21,7 @@ const Product = ({ product, handleAddToCart }) => {
         </picture>
       </figure>
       <div className="info">
-        <h2>{name}</h2>
+        <h2 className="name">{name}</h2>
         <p>
           <b>seller:</b> {seller}
         </p>
@@ -33,6 +33,7 @@ const Product = ({ product, handleAddToCart }) => {
         </p>
         <p className="btn-wrapper">
           <button
+            type="button"
             className="add-to-cart"
             onClick={() => handleAddToCart(product)}>
             add to cart
