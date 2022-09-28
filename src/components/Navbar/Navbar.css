@@ -1,0 +1,46 @@
+.navbar-section {
+  background-color: #035426;
+  padding: 1rem;
+}
+.navbar-container {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+
+  align-items: center;
+  gap: 2rem;
+  max-width: 80rem;
+  margin-inline: auto;
+}
+.navbar-section .nav-logo {
+  width: 3rem;
+  height: auto;
+}
+.navbar-section .nav-list {
+  justify-self: end;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #fff;
+}
+.navbar-section .nav-list li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-section .nav-list a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #7e7e7e;
+  text-decoration: none;
+  padding: 0.5rem 1.25rem;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  transition-property: background-color, color;
+}
+.navbar-section .nav-list a:hover {
+  background-color: #fff;
+  color: #eb541d;
+}

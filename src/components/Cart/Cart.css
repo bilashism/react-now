@@ -1,0 +1,11 @@
+.cart-section {
+  background-color: #769ee3;
+  position: relative;
+}
+.cart-content {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: auto;
+}

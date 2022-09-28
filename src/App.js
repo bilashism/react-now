@@ -1,9 +1,11 @@
 import "./App.css";
-import Countries from "./components/Countries/Countries";
+import Navbar from "./components/Navbar/Navbar";
+import Shop from "./components/Shop/Shop";
 function App() {
   return (
     <div className="App">
-      <Countries></Countries>
+      <Navbar></Navbar>
+      <Shop></Shop>
     </div>
   );
 }
